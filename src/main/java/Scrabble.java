@@ -8,7 +8,7 @@ public class Scrabble {
       return 5;
     } else if ((letter.equals("f"))||(letter.equals("h"))||(letter.equals("v"))||(letter.equals("w"))||(letter.equals("y"))) {
       return 4;
-    } else if ((letter.equals("[b"))||(letter.equals("c"))||(letter.equals("m"))||(letter.equals("p]"))) {
+    } else if ((letter.equals("b"))||(letter.equals("c"))||(letter.equals("m"))||(letter.equals("p"))) {
       return 3;
     } else if ((letter.equals("d"))||(letter.equals("g"))) {
       return 2;
