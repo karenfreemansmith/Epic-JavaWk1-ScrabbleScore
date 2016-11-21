@@ -1,17 +1,12 @@
 # Scrabble Score
-Version 0.0.0: September 7, 2016
-
-by [Karen Freeman-Smith](https://github.com/karenfreemansmith) and [Brian Dutz](https://github.com/AIMWORLD213445)
+Version 0.0.1: September 7, 2016 by [Karen Freeman-Smith](https://github.com/karenfreemansmith) and [Brian Dutz](https://github.com/AIMWORLD213445)
 
 ## Description
 A program to find out what score a word will get in Scrabble
 
-### Specifications
-| Behavior                           | Input | Output |
-|------------------------------------|-------|--------|
-| Return a score for a single letter | a     | 1      |
-| Return correct score for a letter  | q     | 10     |
-| Return correct score for full word | hello | 8      |
+
+## Technologies Used
+Java, Gradle, junit
 
 ## Setup/Installation
 * Clone directory
@@ -22,11 +17,16 @@ A program to find out what score a word will get in Scrabble
 ## Support & Contact
 For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
+
+### Specifications
+| Behavior                           | Input | Output |
+|------------------------------------|-------|--------|
+| Return a score for a single letter | a     | 1      |
+| Return correct score for a letter  | q     | 10     |
+| Return correct score for full word | hello | 8      |
+
 ## Known Issues
 * This program runs only from the command line
-
-## Technologies Used
-Java, Gradle, junit
 
 ## Legal
 *Licensed under the GNU General Public License v3.0*
